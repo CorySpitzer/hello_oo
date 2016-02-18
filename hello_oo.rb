@@ -1,8 +1,8 @@
-class Hello
-  def say
-    puts 'Hello, world!'
+class Greeting
+  def say(name)
+    puts "Hello, #{name}!"
   end
 end
 
-greeting = Hello.new
-greeting.say
+greeting = Greeting.new
+greeting.say 'Cory'
